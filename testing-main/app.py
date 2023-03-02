@@ -29,8 +29,7 @@ def math_ops():
             
         return render_template('results.html' , result = result)
 
-
-
+# POST Method used
 
 @app.route('/postman_action',methods=['POST'])
 def math_ops1():
